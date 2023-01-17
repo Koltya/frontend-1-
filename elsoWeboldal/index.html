@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Document</title>
+    <style>
+      div {
+        margin: 20px;
+        font-size: 60px;
+      }
+
+      #C12 {
+        font-style: italic;
+      }
+      /*
+        CSS csak ezt a commentet veszi figyelembe
+        // itt nem működik
+        */
+    </style>
+    <script>
+      console.log("hello");
+      //window.alert('helo!');
+      /*
+        Amit ide írok
+        az nem lesz
+        figyelembe véve.
+        */
+    </script>
+  </head>
+  <body>
+    <h1>Címsor1</h1>
+    <!--HTML-ben így commentelünk-->
+    <div style="font-size: 32px; font-weight: bold" class="my-title">
+      Ez egy cím
+    </div>
+    <div class="red-box rounded">Ez egy piros doboz.</div>
+    <div class="red-box" id="C12">
+      Ez is egy piros doboz csak nincs lekerekítve.
+    </div>
+    <strong>Ez vastagon van szedve.</strong>
+    <b>Ez is vastagon van szedve, de csak a látvány miatt.</b>
+    <button>Ez egy gomb</button>
+    <img src="images\Thinking-of-getting-a-cat-800x400.png" alt="Ez egy cica" />
+    <ul class="menu">
+      <li class="menu-item">Menu1</li>
+      <li class="menu-item">Menu2</li>
+      <li class="menu-item">Menu3</li>
+    </ul>
+  </body>
+</html>
